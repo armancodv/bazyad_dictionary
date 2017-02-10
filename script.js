@@ -1,7 +1,7 @@
 var app = angular.module('myApp', []);
 app.controller('myCtrl', function ($scope, $http) {
-    //$scope.info_url='http://bazyad.com/';
-    $scope.info_url = 'http://localhost/bazyad/';
+    $scope.info_url='http://bazyad.com/';
+    //$scope.info_url = 'http://localhost/bazyad/';
 
     if (localStorage.getItem("dic_code") != null) {
         $scope.dic_code = localStorage.getItem("dic_code");

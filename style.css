@@ -1,0 +1,263 @@
+@font-face {
+	font-family: 'Iranian Sans';
+	src: local('Iranian Sans'), url(fonts/iranian-sans.eot) format('embedded-opentype'), url(fonts/iranian-sans.woff2) format('woff2'), url(fonts/iranian-sans.woff) format('woff'), url(fonts/iranian-sans.ttf) format('truetype');
+}
+
+* {
+	-webkit-tap-highlight-color: rgba(255,255,255,0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	margin:0;
+	background-color:#fafafa;
+	font-size:12px;
+	font-family: 'Iranian Sans', Arial, serif;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+h1 {
+	font-size:13px;
+	font-weight:normal;
+	padding: 0;
+	margin: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	display: inherit;
+	vertical-align: middle;
+	line-height: 0;
+}
+
+select,input[type=text],input[type=password] {
+	width:90%;
+	padding:10px;
+	margin:0;
+	border:1px solid #dddddd;
+    font-family: 'Iranian Sans', Arial, serif;
+	font-size:14px;
+}
+
+input[type=submit] {
+	padding:10px;
+	margin:0;
+    font-family: 'Iranian Sans', Arial, serif;
+	font-size:14px;
+	background-color:#551840;
+	border:1px solid #431332;
+	color:#ffffff;
+}
+
+.page-table {
+	width:100%;
+	direction:rtl;
+}
+
+.page-table-main {
+	background-color:#ffffff;
+}
+
+.page-table-copy {
+	font-size:10px;
+	color:#bbbbbb;
+	text-align:center;
+	direction:ltr;
+	padding:10px 0 60px 0;
+	border-top:3px solid #eeeeee;
+}
+
+.right-title {
+	color: #aaaaaa;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	margin: 25px 15px 15px 0;
+}
+
+.right-item {
+	width:100%;
+	height:50px;
+	direction:rtl;
+	cursor:pointer;
+	font-family: 'Iranian Sans', Arial, serif;
+}
+
+.right-item-thumb-td {
+	vertical-align: top;
+	width:50px;
+	height: 50px;
+	padding-top: 5px;
+}
+
+.right-item-thumb {
+	background-size:cover;
+	background: #bd4845 center;
+	width:40px;
+	height: 40px;
+	border-radius: 40px;
+	margin: auto;
+}
+
+.right-item-name {
+	border-top: 1px solid #282828;
+	color:#eeeeee;
+	text-align:right;
+	padding: 10px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.right-product {
+	width:100%;
+	height:40px;
+	direction:rtl;
+	cursor:pointer;
+	font-family: 'Iranian Sans', Arial, serif;
+}
+
+.right-product-thumb-td {
+	vertical-align: top;
+	width:40px;
+	height: 40px;
+	padding-top: 5px;
+}
+
+.right-product-thumb {
+	background-size:cover;
+	background: #bd4845 center;
+	width:30px;
+	height: 30px;
+	border-radius: 40px;
+	margin: auto;
+}
+
+.right-product-name {
+	border-top: 1px solid #282828;
+	color:#999999;
+	text-align:right;
+	padding: 10px;
+	font-size:12px;
+}
+
+.dic-item {
+	width:100%;
+	height:50px;
+	direction:rtl;
+	cursor:pointer;
+	font-family: 'Iranian Sans', Arial, serif;
+}
+
+.dic-item-name {
+	border-top: 1px solid #fafafa;
+	color:#555555;
+	text-align:center;
+	padding: 10px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.dic-item-dark {
+	width:100%;
+	height:50px;
+	direction:rtl;
+	cursor:pointer;
+	font-family: 'Iranian Sans', Arial, serif;
+}
+
+.dic-item-dark-name {
+	border-top: 1px solid #fafafa;
+	background-color: #f6f6f6;
+	color:#555555;
+	text-align:center;
+	padding: 10px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#page2 {
+	display:none;
+}
+
+#sb-site, .sb-site-container {
+    background-color:#bd4845;
+}
+
+.sb-slidebar {
+    padding: 14px;
+    color: #fff;
+}
+
+html.sb-active #sb-site, .sb-toggle-left, .sb-toggle-right, .sb-open-left, .sb-open-right, .sb-close {
+    cursor: pointer;
+}
+
+#sb-site.top-padding {
+    padding-top: 70px;
+}
+
+#fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 72px;
+    z-index: 4;
+}
+
+#fixed-top span.sb-toggle-left {
+    float: left;
+    color: white;
+    padding: 0 10px;
+}
+
+#fixed-top span.sb-toggle-right {
+    float: right;
+    color: white;
+    padding: 0 10px;
+}
+
+
+#top-table {
+	width:100%;
+	height:70px;
+	background: #f15d58 linear-gradient(60deg, #db5450 50%, #f15d58 50%);
+}
+
+#top-table-shadow {
+	width:100%;
+	background-color:#000000;
+	height:2px;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+
+#top-table-toggle {
+	width:70px;
+	background-color:#222222;
+	text-align:center;
+	color:#ffffff;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+#top-table-toggle:hover {
+	background-color:#111111;
+}
+
+#top-table-title {
+	width:60px;
+	padding-right:20px;
+	vertical-align: middle;
+}
+
+#top-table-bar {
+	vertical-align:middle;
+	padding: 0;
+}
